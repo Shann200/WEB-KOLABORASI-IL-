@@ -1,0 +1,166 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #eee590;
+}
+
+.header {
+    width: 1280px; /* Fixed width for the header */
+    margin: 0 auto; /* Center the header */
+    overflow: hidden;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Navigation Menu */
+.navigation-menu {
+    background-color: #112217;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin: 0 auto; /* Align navigation with header */
+    width: 1280px; /* Same width as the header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 30px;
+}
+
+.navigation-menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.navigation-menu ul li a img {
+    width: 100px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.navigation-menu ul li a img:hover {
+    transform: scale(1.1);
+}
+
+/* Dropdown Menu */
+.navigation-menu ul li ul.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(23, 56, 30);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navigation-menu ul li:hover ul.dropdown-menu {
+    display: block;
+}
+
+.navigation-menu ul li ul.dropdown-menu li {
+    margin: 0;
+}
+
+.navigation-menu ul li ul.dropdown-menu li a {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.navigation-menu ul li ul.dropdown-menu li a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.navigation-menu ul li ul.dropdown-menu li a img:hover {
+    transform: scale(1.1);
+}
+
+/* Sections */
+.section {
+    display: none; /* Hide all sections by default */
+    padding: 50px 20px;
+    background-color: #e9ecef;
+    margin: 0; /* Remove margin */
+    width: 100%; /* Full width */
+    border-radius: 0; /* Remove rounded corners */
+    box-shadow: none; /* Remove shadow */
+}
+
+/* Show the targeted section */
+#home:target,
+#pkn:target,
+#plan1:target,
+#plan2:target,
+#plan3:target,
+#plan4:target,
+#abt1:target,
+#abt2:target,
+#abt3:target,
+#about:target {
+    display: block; /* Show the section corresponding to the target */
+}
+
+/* Footer */
+.footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer img {
+    width:1280px;
+    height: auto;
+}
+
+img.sdgs{
+width: 500px;
+height: auto;
+}
+img.SDGS{
+    width: 500px;
+    height: auto;
+    }
+
+img.skibidi{
+    width: 500px;
+    height: auto;
+}
+
+img.sigma{
+    width: 500px;
+    height: auto;
+}
+
+img.Regionall{
+    width: 500px;
+    height: auto;
+}
+
+img.Mult{
+    width: 500px;
+    height: auto;
+}
